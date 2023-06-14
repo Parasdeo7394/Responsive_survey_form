@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Survey Form</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="description">
+                <p>Let us know how we can improve </p>
+            </div>
+            <form id="survey-form">
+                <div class="row-tab">
+                <div class="label-tab">
+                    <label>Name</label>
+                </div>
+                <div class="input-tab">
+                    <input type="text" name="Name" placeholder="Enter your name">
+                    
+                </div>
+                </div>
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="email" name="Email" placeholder="Enter your email">
+                    </div>
+                    </div>
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label>Age</label>
+                        </div>
+                        <div class="input-tab">
+                            <input type="number" name="Age" placeholder="Age">
+                        </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>Which option best describes your current role?</label>
+                            </div>
+                            <div class="select-tab">
+                                <select id="select-box">
+                                    <option>Student</option>
+                                    
+                                    <option>Job holder</option>
+                                    <option>Businessman</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>How likely is that you would recommend Guvi to a friend?
+
+                                </label>
+                            </div>
+                            <div class="input-tab">
+                                <div>
+                                <input type="radio" name="suggest" value="Definitely"><label>Definitely</label></div>
+                                <div>
+                                <input type="radio" name="suggest" value="Maybe"><label>Maybe</label></div>
+                                <div>
+                                <input type="radio" name="suggest" value="Not sure"><label>Not sure</label></div>
+                            </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>
+                                    What do you like most in Guvi
+                                </label>
+                            </div>
+                            <div class="select-tab">
+                                <select>
+                                    <option>Select an option</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>Things that should be improved in the future (Check all that apply)</label>
+                            </div>
+                            <div class="input-tab">
+                                <input type="radio" name="project" value="Front-end Project"><label>Front-end Project</label>
+                                <input type="radio" name="project" value="Back-end Project"><label>Back-end Project</label>
+                                <input type="radio" name="project" value="Data visulization"><label>Data visulization</label>
+                            </div>
+                        </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
